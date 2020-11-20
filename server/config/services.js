@@ -42,23 +42,38 @@
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
+    api: '/reviews/:product_id',
     url: 'http://localhost:3001',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/reviews/:product_id',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: '/reviews/:product_id',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   },
   service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
+    api: '/reviews/:product_id',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   },
+  // service2: {
+  //   api: '/images/:itemId',
+  //   url: 'http://localhost:3002',
+  //   bundle: 'bundle.js',
+  // },
+  // service3: {
+  //   api: '/data/:itemId',
+  //   url: 'http://localhost:3003',
+  //   bundle: 'bundle.js',
+  // },
+  // service4: {
+  //   api: '/add_to_bag/:proudctId',
+  //   url: 'http://localhost:3004',
+  //   bundle: 'bundle.js',
+  // },
 };
