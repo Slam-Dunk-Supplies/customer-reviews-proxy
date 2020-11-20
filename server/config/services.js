@@ -42,38 +42,38 @@
 
 module.exports = {
   service1: {
-    api: '/reviews/:product_id',
-    url: 'http://localhost:3001',
-    bundle: 'bundle.js',
-  },
-  service2: {
-    api: '/reviews/:product_id',
-    url: 'http://localhost:3001',
-    bundle: 'bundle.js',
-  },
-  service3: {
-    api: '/reviews/:product_id',
-    url: 'http://localhost:3001',
-    bundle: 'bundle.js',
-  },
-  service4: {
-    api: '/reviews/:product_id',
+    api: '/reviews/:listing_id',
     url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
   // service2: {
-  //   api: '/images/:itemId',
-  //   url: 'http://localhost:3002',
+  //   api: '/reviews/:product_id',
+  //   url: 'http://localhost:3001',
   //   bundle: 'bundle.js',
   // },
   // service3: {
-  //   api: '/data/:itemId',
-  //   url: 'http://localhost:3003',
+  //   api: '/reviews/:product_id',
+  //   url: 'http://localhost:3001',
   //   bundle: 'bundle.js',
   // },
   // service4: {
-  //   api: '/add_to_bag/:proudctId',
-  //   url: 'http://localhost:3004',
+  //   api: '/reviews/:product_id',
+  //   url: 'http://localhost:3001',
   //   bundle: 'bundle.js',
   // },
+  service2: {
+    api: '/images/:listing_id',
+    url: 'http://localhost:3002',
+    bundle: 'bundle.js',
+  },
+  service3: {
+    api: '/data/:listing_id',
+    url: 'http://localhost:3003',
+    bundle: 'bundle.js',
+  },
+  service4: {
+    api: '/add_to_bag/:listing_id',
+    url: 'http://localhost:3004',
+    bundle: 'bundle.js',
+  },
 };
