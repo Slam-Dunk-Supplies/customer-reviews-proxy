@@ -1,0 +1,23 @@
+.purchase-service {
+    top: 25%;
+    position: fixed;
+    right: 15%;
+}
+
+/* .gallery-service {
+    position: relative;
+    width: 100px;
+} */
+
+.service-container {
+    display: flex;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.gTLZXx {
+    width: 500px;
+}

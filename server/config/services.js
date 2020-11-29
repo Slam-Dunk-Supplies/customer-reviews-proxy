@@ -43,37 +43,23 @@
 module.exports = {
   service1: {
     api: '/reviews/:listing_id',
-    url: 'http://localhost:3001',
+    url: 'http://18.216.4.88:3001',
     bundle: 'bundle.js',
   },
-  // service2: {
-  //   api: '/reviews/:product_id',
-  //   url: 'http://localhost:3001',
-  //   bundle: 'bundle.js',
-  // },
-  // service3: {
-  //   api: '/reviews/:product_id',
-  //   url: 'http://localhost:3001',
-  //   bundle: 'bundle.js',
-  // },
-  // service4: {
-  //   api: '/reviews/:product_id',
-  //   url: 'http://localhost:3001',
-  //   bundle: 'bundle.js',
-  // },
   service2: {
-    api: '/images/:listing_id',
-    url: 'http://localhost:3002',
+    api: '/images',
+    url: 'http://44.225.37.147:3002',
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/data/:listing_id',
-    url: 'http://localhost:3003',
+    api: '/data',
+    url: 'http://54.200.202.68:3003',
+    // url: 'http://18.216.4.88:3001',
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/add_to_bag/:listing_id',
-    url: 'http://localhost:3004',
+    api: '/checkout/:id',
+    url: 'http://52.12.62.168:3004',
     bundle: 'bundle.js',
   },
 };
