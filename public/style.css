@@ -1,14 +1,3 @@
-.purchase-service {
-    top: 25%;
-    position: fixed;
-    right: 25%;
-}
-
-/* .gallery-service {
-    position: relative;
-    width: 100px;
-} */
-
 .service-container {
     display: flex;
 }
@@ -18,11 +7,19 @@
     flex-direction: column;
 }
 
-.gTLZXx {
-    width: 400px;
+.purchase-service {
+    top: 25%;
+    position: fixed;
+    right: 0;
 }
 
-.bottom-img {
+/* .gallery-service {
     position: relative;
-    bottom: 0px;
-}
+    width: 100px;
+} */
+
+
+
+/* .gTLZXx {
+    width: 400px;
+} */
