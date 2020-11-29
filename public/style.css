@@ -1,7 +1,7 @@
 .purchase-service {
     top: 25%;
     position: fixed;
-    right: 15%;
+    right: 25%;
 }
 
 /* .gallery-service {
@@ -19,5 +19,10 @@
 }
 
 .gTLZXx {
-    width: 500px;
+    width: 400px;
+}
+
+.bottom-img {
+    position: relative;
+    bottom: 0px;
 }
