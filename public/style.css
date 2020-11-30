@@ -1,16 +1,44 @@
+.outside-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .service-container {
     display: flex;
+    flex-direction: row;
 }
 
 .left-col {
     display: flex;
     flex-direction: column;
+    flex: 2;
+    align-items: center;
+}
+.check-out {
+    display: block;
+    z-index: 50;
+    flex: 0 0 320px;
+    max-width: 25%;
+    backface-visibility: hidden;
 }
 
-.purchase-service {
+/* .purchase-service {
     top: 25%;
     position: fixed;
     right: 0;
+} */
+
+#service4 {
+    max-width: fit-content;
+    position: sticky;
+    right: 0px;
+    top: 0px;
+    min-height: 100vh;
+    border-left: 1px solid #ebedee;
+}
+
+#service3 {
+    flex: 2;
 }
 
 /* .gallery-service {
